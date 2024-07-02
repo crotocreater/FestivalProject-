@@ -51,7 +51,7 @@ app.get("/posts/:id", (req, res) => {
   res.json(post);
 });
 
-// POST a new post
+// POST a new p-+ost
 app.post("/posts", (req, res) => {
   const newId = lastId += 1;
   const post = {
